@@ -68,6 +68,13 @@ margin-bottom: 2rem;
     margin-bottom: 1.5rem;
 }
 
+/*------------------ Game libary cards --*/
+
+ #new-games .card,
+ #fav-games .card {
+    border: none;
+ }
+
 /* grid visualization CSS for testing */
 /* .container,
 .row {
