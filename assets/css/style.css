@@ -116,6 +116,7 @@ h2 {
     color: white;
     max-width: 100%;
     font-size: 0.8rem;
+    padding: 5px 10px;
 
 }
 
@@ -215,7 +216,6 @@ h2 {
     #events .discount {
         margin: 5% 20%;
     }
-
 }
 
 /*--------- Extra Large devices (XX large screens, 1400px and up) ---*/
