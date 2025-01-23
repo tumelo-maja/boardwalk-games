@@ -106,6 +106,11 @@ margin-bottom: 2rem;
 #contact .social-links  i:hover {
     color: var(--secondary-color);
 }
+
+#contact table * {
+    background-color: transparent;
+}
+
 /* grid visualization CSS for testing */
 /* .container,
 .row {
