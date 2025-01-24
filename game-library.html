@@ -45,13 +45,13 @@
                         <a class="nav-link" href="index.html#events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="game-library.html"  aria-current="page">Games</a>
+                        <a class="nav-link active" href="game-library.html" aria-current="page">Games</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="booking.html" class="btn custom-button-filled ms-lg-3" >Book now</a>
+                        <a href="booking.html" class="btn custom-button-filled ms-lg-3">Book now</a>
                     </li>
                 </ul>
             </div>
@@ -125,7 +125,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/new-games-2.webp" alt="Mystic Woods board game box">
+                        <img class="card-img-top" src="assets/images/new-games-2.webp"
+                            alt="Mystic Woods board game box">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Mystic Woods</h3>
                             <p class="card-text">Enter the enchanted forest of Mystic Woods. Combine spells, gather
@@ -137,7 +138,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/new-games-3.webp" alt="Captain's Gambit board game box">
+                        <img class="card-img-top" src="assets/images/new-games-3.webp"
+                            alt="Captain's Gambit board game box">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Captain's Gambit</h3>
                             <p class="card-text">Engage in battles, form fleeting alliances, and navigate treacherous
@@ -149,7 +151,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/new-games-4.webp" alt="Critter Quest board game box">
+                        <img class="card-img-top" src="assets/images/new-games-4.webp"
+                            alt="Critter Quest board game box">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Critter Quest</h3>
                             <p class="card-text">Solve simple puzzles, collect magical gems, and help friends along the
@@ -169,7 +172,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/fav-games-1.webp" alt="Settlers of Catan board game">
+                        <img class="card-img-top" src="assets/images/fav-games-1.webp"
+                            alt="Settlers of Catan board game">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Settlers of Catan</h3>
                             <p class="card-text">Picture yourself in the era of discoveries: after a long voyage of
@@ -193,7 +197,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-xl-3">
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/fav-games-3.webp" alt="Exploding Kittens card game">
+                        <img class="card-img-top" src="assets/images/fav-games-3.webp"
+                            alt="Exploding Kittens card game">
                         <div class="card-body">
                             <h3 class="card-title sub-heading-color">Exploding Kittens</h3>
                             <p class="card-text">Exploding Kittens is a kitty-powered version of Russian Roulette.
@@ -216,6 +221,57 @@
                             <p><em>Ages:</em> 8+</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Game reservation form section -->
+        <section id="reservation-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-xl-12 text-center">
+                    <h2>Reserve a game</h2>
+                    <div class="col-12 mb-3 text-start">
+                        <p class="my-4">Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the
+                            adventure begin! Fill out your details and preferred game below, and we'll have it set aside
+                            for you when you arrive.</p>
+                    </div>
+                    <form action="success.html" method="GET">
+                        <div class="row text-start">
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="fullname" class="form-label">Full name</label>
+                                <input class="form-control" id="fullname" name="fullname" type="text" required>
+                            </div>
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-xl-8 mb-3">
+                                <label for="event-type" class="form-label">Select game</label>
+                                <select id="event-type" class="form-select" name="event-type" required>
+                                    <option value="" selected>Select game</option>
+                                    <option value="galaxy-poineers">Galaxy Pioneers</option>
+                                    <option value="mystic-woods">Mystic Woods</option>
+                                    <option value="captain-gambit">Captain's Gambit</option>
+                                    <option value="critter-quest">Critter Quest</option>
+                                    <option value="setters-catan">Setters of Catan</option>
+                                    <option value="monopoly">Monopoly</option>
+                                    <option value="exploding-kittens">Exploding Kittens</option>
+                                    <option value="cluedo">Cluedo</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-xl-4 mb-3">
+                                <label for="reserve-date">Requested date</label>
+                                <input id="reserve-date" class="form-control" type="date" name="reserve-date"
+                                    placeholder="dd-mm-yyyy" value="" required>
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <button type="submit" class="btn custom-button-outline">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>

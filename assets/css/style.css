@@ -104,6 +104,20 @@ h2 {
     border: none;
 }
 
+#reservation-form p {
+    padding-right: 3px;
+}
+
+#reservation-form label {
+    margin-bottom: 8px;
+}
+
+#reservation-form button {
+    width: 105px;
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
 /*----------------- Events --*/
 /*--- reduce font to prevent overflow */
 #events table {
@@ -185,7 +199,11 @@ h2 {
     #events .discount {
         margin: 5% 25%;
         font-size: 1.1rem;
+    }
 
+    /*---- adjust p in reservation --*/
+    #reservation-form p {
+        padding-right: 5px;
     }
 }
 
@@ -216,6 +234,11 @@ h2 {
     #events .discount {
         margin: 5% 20%;
     }
+
+    /*---- adjust form width --*/
+    #reservation-form {
+        width: 740px;
+    }
 }
 
 /*--------- Extra Large devices (XX large screens, 1400px and up) ---*/
@@ -224,5 +247,10 @@ h2 {
     /* Make all service cards same height for consistency */
     #services .card-body {
         min-height: 195px;
+    }
+
+    /*---- adjust form width --*/
+    #reservation-form {
+        width: 870px;
     }
 }
