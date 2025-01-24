@@ -154,6 +154,8 @@ h2 {
     color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -169,17 +171,6 @@ h2 {
 #contact table * {
     background-color: transparent;
 }
-
-/* grid visualization CSS for testing */
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid red;
-    background-color: lightgray;   
-} */
 
 /*--------- Media queries ---*/
 
